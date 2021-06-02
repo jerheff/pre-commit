@@ -10,4 +10,4 @@
 
 set -euo pipefail
 
-buf lint "$@"
+buf lint
