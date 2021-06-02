@@ -13,4 +13,4 @@ set -euo pipefail
 # Default to checking against the local master Git branch
 against=${1-'.git#branch=master'};
 
-buf breaking "${against}"
+buf breaking --against "${against}"
